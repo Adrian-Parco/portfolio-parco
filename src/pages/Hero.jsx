@@ -1,6 +1,6 @@
 import React from "react";
 import pic from "../assets/my-pic.png";
-import linkedIn from "../assets/icons/linkedin.png";
+import linkedIn from "../assets/icons/linkedIn.png";
 import github from "../assets/icons/github.png";
 
 const Hero = () => {
