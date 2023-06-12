@@ -5,18 +5,21 @@ import github from "../assets/icons/github.png";
 
 const Hero = () => {
   return (
-    <div className="h-full mt-14 md:flex md:items-center md:justify-center md:mt-5 lg:mt-0 lg:h-screen">
+    <div
+      className="h-screen mt-14 pt-10 md:h-full md:pt-20 md:flex md:items-center md:justify-center md:mt-5 lg:mt-0 lg:h-screen lg:px-24"
+      id="hero"
+    >
       <div className="m-10 lg:m-0">
-        <h1 className="text-2xl underline lg:text-4xl">Hey There,</h1>
-        <h2 className="text-4xl lg:text-6xl">
+        <h1 className="text-2xl underline lg:text-3xl">Hey There,</h1>
+        <h2 className="text-4xl lg:text-5xl">
           I'm <span className="text-blue-950 font-semibold">Adrian</span>
         </h2>
         <p className="text-xs mt-4 pr-20 md:p-0 lg:text-lg">
-          Tech lover, always seeking ways to simplify my work.
+          Tech enthusiast — always looking for ways to simplify my work.
         </p>
         <div className="hidden mt-5 gap-3 md:flex md:justify-end md:items-center">
           <a
-            href=""
+            href="https://www.linkedin.com/in/adrian-parco-04b91a249/"
             className="transition duration-300 delay-150 hover:delay-300"
           >
             <img
@@ -25,7 +28,7 @@ const Hero = () => {
               className="w-8 lg:w-12 hover:scale-125 transition duration-300 delay-50"
             />
           </a>
-          <a href="">
+          <a href="https://github.com/Adrian-Parco">
             <img
               src={github}
               alt=""

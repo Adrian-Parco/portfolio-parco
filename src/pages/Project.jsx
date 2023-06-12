@@ -22,8 +22,8 @@ import sass from "../assets/icons/sass.png";
 
 const Project = () => {
   return (
-    <div>
-      <h1 className="mt-10 text-2xl font-semibold mx-10 text-blue-950 md:text-4xl lg:mx-20 lg:mt-20">
+    <div className="pt-20" id="projects">
+      <h1 className="mt-10 text-2xl font-semibold mx-10 text-blue-950 md:text-4xl lg:mx-20">
         Projects
       </h1>
       <div className="lg:flex lg:flex-wrap lg:justify-center lg:items-center lg:mt-10">
@@ -75,7 +75,7 @@ const Project = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center lg:w-1/2">
+        <div className="flex flex-col justify-center items-center lg:w-1/2  md:pb-20">
           <h1 className="mx-10 mt-8 text-lg md:text-2xl md:font-mono lg:text-2xl lg:mt-20">
             Kitchen Recipe Generator
           </h1>

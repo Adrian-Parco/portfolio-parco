@@ -7,7 +7,7 @@ import graduation from "../assets/graduation.png";
 
 const About = () => {
   return (
-    <div>
+    <div id="about" className="pt-10 md:pt-20 lg:pt-36">
       <div className="mt-10 md:flex md:justify-center md:items-center">
         <div className="lg:w-1/2">
           <h1 className="text-3xl mx-10 underline lg:text-4xl">Who Am I?</h1>
@@ -62,7 +62,11 @@ const About = () => {
             </div>
             <img src={kodeGo} alt="neu" className="w-14 mt-5 lg:w-20" />
           </div>
-          <img src={graduation} alt="" className="hidden md:block md:w-80  lg:w-96" />
+          <img
+            src={graduation}
+            alt=""
+            className="hidden md:block md:w-80  lg:w-96"
+          />
         </div>
       </div>
     </div>

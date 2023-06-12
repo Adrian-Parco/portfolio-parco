@@ -19,14 +19,17 @@ import sass from "../assets/icons/sass.png";
 
 const Skills = () => {
   return (
-    <div className="mt-5 p-10 bg-blue-900 md:bg-white md:mt-16 lg:px-20">
+    <div
+      className="mt-5 p-10 bg-blue-900 md:bg-white md:mt-16 pt-20  lg:px-20 lg:pt-36"
+      id="skills"
+    >
       <h1 className="text-center text-6xl text-white md:text-blue-950">
         <span className="text-black">{"<"}</span>Skills
         <span className="text-black">{"/>"}</span>
       </h1>
-      <div className="lg:flex lg:justify-center lg:items-center lg:mt-20">
-        <div className="lg:w-1/2 lg:h-80 lg:bg-blue-950 lg:flex lg:flex-col lg:items-center lg:justify-center lg:rounded-lg">
-          <h2 className="mt-10  text-white underline md:text-xl md:text-blue-950 md:ml-10 lg:mt-0 lg:text-white lg:text-2xl">
+      <div className="lg:flex lg:justify-center lg:mt-20">
+        <div className="lg:w-1/2 lg:h-80 lg:bg-blue-950 lg:flex lg:flex-col lg:items-center lg:rounded-lg">
+          <h2 className="mt-10  text-white underline md:text-xl md:text-blue-950 md:ml-10 lg:mt-1 lg:text-white lg:text-2xl">
             Languages
           </h2>
           <div className="flex flex-wrap gap-10 mt-10 justify-center items-center md:px-56 lg:gap-5 lg:px-8">

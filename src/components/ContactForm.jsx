@@ -18,7 +18,10 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit} className="max-w-sm mx-auto">
       <div className="mb-4">
-        <label htmlFor="name" className="block mb-2 text-lg text-blue-400 md:text-blue-950">
+        <label
+          htmlFor="name"
+          className="block mb-2 text-lg text-blue-400 md:text-blue-950"
+        >
           Name
         </label>
         <input
@@ -27,12 +30,15 @@ const ContactForm = () => {
           name="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="w-full px-3 py-2 border border-gray-300 md:border-b-2 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+          className="w-full px-3 lg:px-20 py-2 border border-gray-300 md:border-b-2 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
           required
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="email" className="block mb-2 text-lg text-blue-400 md:text-blue-950">
+        <label
+          htmlFor="email"
+          className="block mb-2 text-lg text-blue-400 md:text-blue-950"
+        >
           Email
         </label>
         <input
@@ -41,12 +47,15 @@ const ContactForm = () => {
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full px-3 py-2 border border-gray-300 md:border-b-2 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+          className="w-full px-3 lg:px-20 py-2 border border-gray-300 md:border-b-2 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
           required
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="message" className="block mb-2 text-lg text-blue-400 md:text-blue-950">
+        <label
+          htmlFor="message"
+          className="block mb-2 text-lg text-blue-400 md:text-blue-950"
+        >
           Message
         </label>
         <textarea
@@ -55,7 +64,7 @@ const ContactForm = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           rows={5}
-          className="w-full px-3 py-2 border border-gray-300 md:border-b-2 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+          className="w-full px-3 lg:px-20 py-2 border border-gray-300 md:border-b-2 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
           required
         />
       </div>
