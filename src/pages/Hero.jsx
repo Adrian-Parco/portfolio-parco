@@ -1,4 +1,5 @@
 import React from "react";
+import Aos from "../components/Aos";
 import pic from "../assets/my-pic.png";
 import linkedIn from "../assets/icons/linkedIn.png";
 import github from "../assets/icons/github.png";
@@ -10,13 +11,19 @@ const Hero = () => {
       id="hero"
     >
       <div className="m-10 lg:m-0">
-        <h1 className="text-2xl underline lg:text-3xl">Hey There,</h1>
-        <h2 className="text-4xl lg:text-5xl">
-          I'm <span className="text-blue-950 font-semibold">Adrian</span>
-        </h2>
-        <p className="text-xs mt-4 pr-20 md:p-0 lg:text-lg">
-          Tech enthusiast — always looking for ways to simplify my work.
-        </p>
+        <Aos threshold={0.5} duration={0.5} easing="easeInOut" direction="fromLeft">
+          <h1 className="text-2xl underline lg:text-3xl ">Hey There,</h1>
+        </Aos>
+        <Aos threshold={0.5} duration={1} easing="easeInOut" direction="fromLeft">
+          <h2 className="text-4xl lg:text-5xl">
+            I'm <span className="text-blue-950 font-semibold">Adrian</span>
+          </h2>
+        </Aos>
+        <Aos threshold={0.5} duration={1.5} easing="easeInOut" direction="fromLeft">
+          <p className="text-xs mt-4 pr-20 md:p-0 lg:text-lg">
+            Tech enthusiast — always looking for ways to simplify my work.
+          </p>
+        </Aos>
         <div className="hidden mt-5 gap-3 md:flex md:justify-end md:items-center">
           <a
             href="https://www.linkedin.com/in/adrian-parco-04b91a249/"

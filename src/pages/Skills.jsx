@@ -1,4 +1,5 @@
 import React from "react";
+import Aos from "../components/Aos";
 import cplus from "../assets/icons/c++.png";
 import js from "../assets/icons/js.png";
 import java from "../assets/icons/java.png";
@@ -33,12 +34,54 @@ const Skills = () => {
             Languages
           </h2>
           <div className="flex flex-wrap gap-10 mt-10 justify-center items-center md:px-56 lg:gap-5 lg:px-8">
-            <img src={html} alt="" className="rounded-full w-14 lg:w-16" />
-            <img src={css} alt="" className="rounded-full w-14 lg:w-16" />
-            <img src={js} alt="" className="rounded-full w-14 lg:w-16" />
-            <img src={java} alt="" className="rounded-full w-14 lg:w-16" />
-            <img src={python} alt="" className="rounded-full w-14 lg:w-16" />
-            <img src={cplus} alt="" className="rounded-full w-14 lg:w-16" />
+            <Aos
+              threshold={0.5}
+              duration={0.5}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={html} alt="" className="rounded-full w-14 lg:w-16" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={0.7}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={css} alt="" className="rounded-full w-14 lg:w-16" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={0.9}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={js} alt="" className="rounded-full w-14 lg:w-16" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={1.1}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={java} alt="" className="rounded-full w-14 lg:w-16" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={1.3}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={python} alt="" className="rounded-full w-14 lg:w-16" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={1.5}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={cplus} alt="" className="rounded-full w-14 lg:w-16" />
+            </Aos>
           </div>
         </div>
         <div className="mt-8 lg:mt-0 lg:w-1/2 lg:flex lg:flex-col lg:items-center lg:justify-center">
@@ -46,17 +89,94 @@ const Skills = () => {
             Frameworks & Databases
           </h1>
           <div className="flex flex-wrap gap-6 mt-10 justify-center items-center md:px-44 lg:gap-8 lg:px-10">
-            <img src={react} alt="" className="w-14" />
-            <img src={mysql} alt="" className="w-14" />
-            <img src={mongodb} alt="" className="w-14" />
-            <img src={firebase} alt="" className="w-14" />
-            <img src={nodejs} alt="" className="w-14" />
-            <img src={tailwind} alt="" className="w-14" />
-            <img src={bootstrap} alt="" className="w-14" />
-            <img src={sass} alt="" className="w-14" />
-            <img src={pandas} alt="" className="w-20" />
-            <img src={matplotlib} alt="" className="w-14" />
-            <img src={kotlin} alt="" className="w-14" />
+            <Aos
+              threshold={0.5}
+              duration={0.5}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={react} alt="" className="w-14" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={0.7}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={mysql} alt="" className="w-14" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={0.9}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={mongodb} alt="" className="w-14" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={1.1}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={firebase} alt="" className="w-14" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={1.3}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={nodejs} alt="" className="w-14" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={1.5}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={tailwind} alt="" className="w-14" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={1.7}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={bootstrap} alt="" className="w-14" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={1.9}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={sass} alt="" className="w-14" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={2.1}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={pandas} alt="" className="w-14" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={2.3}
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={matplotlib} alt="" className="w-14" />
+            </Aos>
+            <Aos
+              threshold={0.5}
+              duration={2.5}  
+              easing="easeInOut"
+              direction="fromBottom"
+            >
+              <img src={kotlin} alt="" className="w-14" />
+            </Aos>
           </div>
           <div></div>
         </div>

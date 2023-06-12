@@ -17,7 +17,9 @@ const Navbar = () => {
             <div className="flex-shrink-0 flex items-center">
               {/* Your logo or brand */}
               <span className="text-white text-lg font-semibold">
-                <img src={logo} alt="logo" className="w-20" />
+                <ScrollLink to="hero" smooth={true}>
+                  <img src={logo} alt="logo" className="w-20 cursor-pointer" />
+                </ScrollLink>
               </span>
             </div>
             <div className="hidden sm:block sm:ml-6">
